@@ -3,7 +3,7 @@ package Day03;
 public class program02 {
 
 	public static void main(String[] args) {
-		program02 msp = new program02();
+		program02 msp = new program02(); //object creation
 		msp.addmethod(10,20);
 		submethod(20,30);
 		msp.mulmethod(30,40);
