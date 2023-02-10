@@ -10,7 +10,7 @@ public class program02 {
 	}
 public void addmethod(int a,int b)
 {
-	System.out.println(a+b);
+	System.out.println(a+b);        
 }
 public static void submethod(int a,int b)
 {

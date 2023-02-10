@@ -5,13 +5,13 @@ public class program03 extends program01 {
 		addmethod(10,20);
 		//submethod(30,20);// it is private method-not visible
 		mulmethod(30,40);
-		//sqrmethod(10);
+		//sqrmethod(10);// it is default method-not visible
 		System.out.println("##########");
-		program03 msp=new program03();
-		msp.addmethodnonstatic(20,20);
-		//msp.submethodnonstatic(30,20);//it is private method - not visible
-		msp.mulmethodnonstatic(40,40);
-		//msp.sqrmethodnonstatic(20);
+		program03 x=new program03();
+		x.addmethodnonstatic(20,20);
+		//x.submethodnonstatic(30,20);//it is private method - not visible
+		x.mulmethodnonstatic(40,40);
+		//x.sqrmethodnonstatic(20);// it is default method-not visible
 		
 	}
 }
