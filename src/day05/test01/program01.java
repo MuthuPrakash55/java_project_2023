@@ -10,7 +10,7 @@ public class program01 {
 		main();
 	}
 	public static double main(double a,double b) {
-		return a+b;// main method overloading
+		return a+b;           // main method overloading
 	}
 	public static void main() {
 		System.out.println("good morning");
