@@ -8,7 +8,7 @@ public class program03 {
 		int c=20;
 		System.out.println((a>b)&&(b<a));//t && t----->true
 		System.out.println((b>a)&&(c<a));//f && t----->false
-		System.out.println((b>c)&&(a<c));
+		System.out.println((b>c)&&(a<c));//f
 		System.out.println("###########");
 		System.out.println((a>b)||(b>a));//t || f----->true
 		System.out.println((c>b)||(c>a));//f || f----->false
