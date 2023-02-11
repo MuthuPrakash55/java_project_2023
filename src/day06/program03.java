@@ -8,15 +8,15 @@ public class program03 {
 		int c=20;
 		System.out.println((a>b)&&(b<a));//t && t----->true
 		System.out.println((b>a)&&(c<a));//f && t----->false
-		System.out.println((b>c)&&(a<c));//f
+		System.out.println((b>c)&&(a<c));//false
 		System.out.println("###########");
 		System.out.println((a>b)||(b>a));//t || f----->true
 		System.out.println((c>b)||(c>a));//f || f----->false
-		System.out.println((a>b)&&(b<a));
+		System.out.println((a>b)&&(b<a));//true
 		System.out.println("***********");
 		System.out.println(!(a>b));//! t---->false
 		System.out.println(!(b>a));//! f---->true
-		System.out.println(!(c>a));
+		System.out.println(!(c>a));//true
 	}
 
 }
