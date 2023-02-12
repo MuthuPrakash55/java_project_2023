@@ -6,6 +6,9 @@ public class program03 {
 		int a=200;
 		int b=30;
 		int c=20;
+		//&&--->AND
+		//||--->OR
+		//!---->NOT
 		System.out.println((a>b)&&(b<a));//t && t----->true
 		System.out.println((b>a)&&(c<a));//f && t----->false
 		System.out.println((b>c)&&(a<c));//false
