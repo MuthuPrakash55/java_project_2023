@@ -5,8 +5,8 @@ public class program01 {
 	public static void main(String[] args) {
 		int a=100;
 		int b=20;
-		int c=300;
-		int d=4000;
+		int c=500;
+		int d=400;
 	
 		if((a>=b)&&(a>=c)&&(a>=d)) {
 			if(a==b&&a==c&&a==d) {
