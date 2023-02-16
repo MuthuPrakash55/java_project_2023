@@ -3,9 +3,9 @@ package day08;
 public class program01 {
 
 	public static void main(String[] args) {
-		int a=100;
-		int b=20;
-		int c=500;
+		int a=1000;
+		int b=40000;
+		int c=50;
 		int d=400;
 	
 		if((a>=b)&&(a>=c)&&(a>=d)) {
