@@ -7,8 +7,8 @@ public class program3 {
 		
 		System.out.println("......while program......!");
 		int a=1;
-		while(a<=5) {
-			System.out.println(table+"x"+a+"="+table*a);
+		while(a<=10) {
+			System.out.println(table+" x "+a+"="+table*a);
 			a=a+1;
 		}
 		
