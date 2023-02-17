@@ -1,6 +1,6 @@
 package day07;
 
-public class Program04 {
+public class program04 {
 
 	public static void main(String[] args) {
 		int a=100;

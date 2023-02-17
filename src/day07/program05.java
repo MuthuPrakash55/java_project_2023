@@ -2,7 +2,7 @@ package day07;
 
 import java.util.Scanner;
 
-public class program5 {
+public class program05{
 	public static void main(String[] args) {
 		Scanner x=new Scanner(System.in);
 		System.out.println("enter the value of a -");
