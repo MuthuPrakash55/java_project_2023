@@ -10,7 +10,7 @@ public class program04 {
 		{
 			System.out.println("b is greater");
 		}
-		else if(a==b) {
+		else if(a>b) {
 			System.out.println("a is greater");
 		}
 		else 
