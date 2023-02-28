@@ -14,6 +14,7 @@ public class program02 {
 		if(z==x) {
 			System.out.println("armstrong no  "+x);
 		}
+		
 	}
 	
 	
