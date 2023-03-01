@@ -13,7 +13,7 @@ public class octal2binary {
 			x=x/10;
 			i++;
 		}
-			System.out.println("octal to decimal no "+decimal);
+			System.out.println("octal to decimal no is "+decimal);
 			String y=" ";
 			while(decimal>0) {
 				int a=decimal%2;
@@ -21,7 +21,7 @@ public class octal2binary {
 				decimal=decimal/2;
 				
 			}
-			System.out.println("decimal to binary no "+y);
+			System.out.println("decimal to binary no is "+y);
 	}
 
 }

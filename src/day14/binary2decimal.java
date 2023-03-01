@@ -14,6 +14,6 @@ public class binary2decimal {
             i++;		
 			
 		}
-		System.out.println(decimal);
+		System.out.println("The decimal number of x is "+decimal);
 	}
 }

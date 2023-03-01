@@ -11,7 +11,7 @@ public class decimal2binary {
 	            x = a+x ;
 	            n = n / 2;
 	        }
-	        System.out.println("Binary number:"+x);
+	        System.out.println("Binary number of n :"+x);
 	}
 
 }

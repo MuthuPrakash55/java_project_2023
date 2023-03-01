@@ -10,15 +10,15 @@ public class hex2decimal {
 		int a=x1.length;		
 		System.out.println(a);		
 			int i=0;
-			int b=3;
+			int b=a-1;
 			while(b>=0) {
-			while(i<4) 
+			while(i<a) 
 			{					 
 				z=(int)( z+(x1[i]*Math.pow(16, b)));
 			b--;
 				i++;			
 			}
-			System.out.println(z);
+			System.out.println("The Decimal number of "+x+" is -"+z);
 	}
 		
 }
