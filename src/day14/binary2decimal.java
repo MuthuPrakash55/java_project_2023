@@ -1,9 +1,15 @@
 package day14;
 
+import java.util.Scanner;
+
 public class binary2decimal {
 
 	public static void main(String[] args) {
-		int x=1101;
+		Scanner z=new Scanner(System.in);
+		System.out.println("enter the binary value - ");
+		int x=z.nextInt();
+		z.close();
+		int b=x;
 		int decimal=0;
 		int rem;
 		int i=0;
@@ -14,6 +20,6 @@ public class binary2decimal {
             i++;		
 			
 		}
-		System.out.println("The decimal number of x is "+decimal);
+		System.out.println("The decimal number of "+b+" is "+decimal);
 	}
 }

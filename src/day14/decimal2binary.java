@@ -1,9 +1,16 @@
 package day14;
 
+import java.util.Scanner;
+
 public class decimal2binary {
 
 	public static void main(String[] args) {
-		int n=13, a;
+		Scanner z=new Scanner(System.in);
+		System.out.println("enter the decimal value - ");
+		int n=z.nextInt();
+		int b=n;
+		z.close();
+		int a;
 		String x =" " ;
 		 while(n > 0)
 	        {
@@ -11,7 +18,7 @@ public class decimal2binary {
 	            x = a+x ;
 	            n = n / 2;
 	        }
-	        System.out.println("Binary number of n :"+x);
+	        System.out.println("Binary number of "+ b + " :"+x);
 	}
 
 }
