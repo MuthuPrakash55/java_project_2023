@@ -10,8 +10,6 @@ public class program02{
 		for(int i=0;i<count;i++) {			
 			double z=Math.pow(Integer.parseInt(y.charAt(i)+""), count);
 		System.out.println(z);
-		}
-
+		}		
 	}
-
 }

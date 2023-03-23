@@ -15,7 +15,7 @@ public class program01 {
 		for(int i=0;i<5;i++) {
 			System.out.println(x[i]);
 		}
-		System.out.println("@@@@@@@for-each loop@@@@@@");
+		System.out.println("@@@@@@@ for-each loop@@@@@@");
 		for(int a:x) {
 			System.out.println(a);
 		}

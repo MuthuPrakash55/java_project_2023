@@ -11,11 +11,11 @@ public class decimal2binary {
 		int b=n;
 		z.close();
 		int a;
-		String x =" " ;
+		String x ="" ;
 		 while(n > 0)
 	        {
 	            a = n % 2; 
-	            x = a+x ;
+	            x = a+x;
 	            n = n / 2;
 	        }
 	        System.out.println("Binary number of "+ b + " :"+x);

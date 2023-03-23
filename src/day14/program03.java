@@ -7,18 +7,14 @@ public class program03{
 	for(int x:x1) {
 		String y=String.valueOf(x);
 		int count=y.length();
-		double z=0;
+		double z=0;	
 		for(int i=0;i<count;i++) {
-			z=Math.pow(Integer.parseInt(y.charAt(i)+""), count)+z;
+			z=Math.pow(Integer.parseInt(y.charAt(i)+""), count)+z;		
 		}
 		if(z==x) {
 			System.out.println("armstrong no  "+x);
-		}
-		
-	}
-	
-	
-	
+		}		
+	}		
 	}
 
 }
