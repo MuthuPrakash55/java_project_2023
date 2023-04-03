@@ -4,7 +4,6 @@ public class binary {
 
 	public static void main(String[] args) {
 		int x=1101001;
-		int a;
 		int rem;
 		
 		int decimal=0;
