@@ -11,11 +11,12 @@ public class program01 {
 		boolean d=true;
 		double a1;
 		a1=123.456;
-		float a2=123.45f;
+		float a2=123.45656666f;
 		System.out.println(x*x);
 		System.out.println("Hi");
 		System.out.println(" Good Morning");
 		System.out.println(" Have a nice day");
+		System.out.println(a2);
 	}
 	
 

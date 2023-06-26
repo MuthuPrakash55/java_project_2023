@@ -11,7 +11,7 @@ public class program02 {
 	public static void main(String[] args) {
 	double a=fun();
 		System.out.println(a+a);
-
+		System.out.println("even");
 	}
 
 }

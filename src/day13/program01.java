@@ -22,8 +22,11 @@ public class program01 {
 		String[] name= {"abc","bcd","cde","efg"};
 		System.out.println(name.length);
 		System.out.println(name[0]);
-		name[0]="ABC";
+		name[0]="ABC"     ;
 		System.out.println(name [0]);
+		for (String name1:name) {
+			System.out.println(name1);
+		}
 		}
 	}
 

@@ -5,6 +5,7 @@ public class program02{
 	public static void main(String[] args) {
 		int x=153;
 		String y= String.valueOf(x);
+		System.out.println(y);
 		int count=y.length();
 		System.out.println(count);
 		for(int i=0;i<count;i++) {			
