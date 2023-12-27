@@ -15,7 +15,7 @@ public class program01 {
 		System.out.println(y);
 		
 		HashSet<Integer> union=new HashSet<>(x);
-        union.addAll(y);
+		union.addAll(y);
         System.out.println(union);
         
         HashSet<Integer> intersection=new HashSet<>(x);

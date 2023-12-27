@@ -11,7 +11,7 @@ public class binary {
 		
 		while(x>0) {
 			rem=x%10;
-			decimal=(int) (decimal+(rem*(2^i)));
+			decimal= (int) (decimal+rem*Math.pow(2,i));
 			x=x/10;
 			i++;
 		}

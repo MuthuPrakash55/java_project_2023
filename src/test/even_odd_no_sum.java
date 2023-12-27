@@ -16,17 +16,17 @@ public class even_odd_no_sum {
 	}
       public int odd(int n) {
     	  int b=0;
-    	  int odd=0;
+    	  int odd1=0;
     	   do {
     		  if(b%2!=0) {
-    			  odd=odd+b;
-    			  System.out.println(b+"  "+odd);
+    			  odd1=odd1+b;
+    			  System.out.println(b+"  "+odd1);
     			
     			  }
     		  b=b+1; 
     	  }while(b<=n);
     	  
-      System.out.println("sum of odd numers is -"+odd);
-      return odd;
+      System.out.println("sum of odd numers is -"+odd1);
+      return odd1;
       }
 }

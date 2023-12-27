@@ -3,7 +3,7 @@ package day08;
 public class program01 {
 
 	public static void main(String[] args) {
-		int a=40000;
+		int a=0;
 		int b=40;
 		int c=40;
 		int d=4;
